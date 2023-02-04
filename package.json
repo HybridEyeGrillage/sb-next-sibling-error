@@ -1,0 +1,52 @@
+{
+  "name": "sb-next-sibling-error",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "storybook": "npx storybook dev -p 6006",
+    "build-storybook": "npx storybook build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "vite-plugin-html": "^3.2.0",
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-beta.43",
+    "@storybook/addon-interactions": "^7.0.0-beta.43",
+    "@storybook/addon-links": "^7.0.0-beta.43",
+    "@storybook/addons": "^7.0.0-beta.43",
+    "@storybook/blocks": "7.0.0-beta.43",
+    "@storybook/builder-vite": "^7.0.0-beta.43",
+    "@storybook/router": "^7.0.0-beta.43",
+    "@storybook/testing-library": "^0.0.14-next.1",
+    "@storybook/vue3": "^7.0.0-beta.43",
+    "@storybook/vue3-vite": "^7.0.0-beta.43",
+    "@vueuse/core": "^9.12.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.58.0",
+    "sass-loader": "^13.2.0",
+    "storybook": "^7.0.0-beta.43",
+    "storybook-vue3-router": "^2.3.1",
+    "vite": "^4.1.0",
+    "vite-svg-loader": "^4.0.0"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 16.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

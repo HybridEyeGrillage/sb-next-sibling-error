@@ -1,0 +1,92 @@
+button {
+  display: inline-block;
+}
+
+.atom-button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0.3rem auto;
+  border: none;
+  cursor: pointer;
+  .button-label {
+    cursor: pointer;
+  }
+  &.xs {
+    padding: 0.5rem 1rem;
+  }
+  &.sm {
+    padding: 1rem 1.5rem;
+  }
+  &.lg {
+    padding: 1.5rem 3rem;
+  }
+  &.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+  &.rounded {
+    border-radius: 25px;
+  }
+  &.circle {
+    border-radius: 50%;
+    padding: 0.7rem;
+  }
+  &.primary {
+    color: var(--theme-on-primary);
+    background-color: var(--theme-primary);
+    &.outline {
+      border: 2px solid var(--theme-primary);
+      color: var(--theme-primary);
+      background-color: transparent;
+    }
+    &.disabled {
+      color: var(--theme-on-neutral);
+      background-color: var(--theme-neutral);
+      pointer-events: none;
+    }
+  }
+  &.secondary {
+    color: var(--theme-on-secondary);
+    background-color: var(--theme-secondary);
+    &.outline {
+      border: 2px solid var(--theme-secondary);
+      color: var(--theme-secondary);
+      background-color: transparent;
+    }
+    &.disabled {
+      color: var(--theme-on-neutral);
+      background-color: var(--theme-neutral);
+      pointer-events: none;
+    }
+  }
+  &.tertiary {
+    color: var(--theme-on-tertiary);
+    background-color: var(--theme-tertiary);
+    &.outline {
+      border: 2px solid var(--theme-tertiary);
+      color: var(--theme-tertiary);
+      background-color: transparent;
+    }
+    &.disabled {
+      color: var(--theme-on-neutral);
+      background-color: var(--theme-neutral);
+      pointer-events: none;
+    }
+  }
+  &.icon {
+    &-left {
+      flex-direction: row;
+      svg {
+        margin-right: 5px;
+      }
+    }
+    &-right {
+      flex-direction: row-reverse;
+      svg {
+        margin-left: 5px;
+      }
+    }
+  }
+}
